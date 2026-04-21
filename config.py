@@ -23,11 +23,11 @@ YTUB_COOKIES = """
 API_ID       = os.getenv("API_ID", "37241616")
 API_HASH     = os.getenv("API_HASH", "0160548fa54a06f94e23a8768bb02b67")
 BOT_TOKEN    = os.getenv("BOT_TOKEN", "8709836841:AAG_R6US__8WTj4uDmuXe-xyJmuMKaKyRy4")
-MONGO_DB     = os.getenv("MONGO_DB", "")
+MONGO_DB     = os.getenv("MONGO_DB", "mongodb+srv://Contentsave7:<Contentsave7>@cluster0.xjupiur.mongodb.net/?appName=Cluster0")
 DB_NAME      = os.getenv("DB_NAME", "telegram_downloader")
 
 # ─── OWNER / CONTROL SETTINGS ───────────────────────────────────────────────────
-OWNER_ID     = list(map(int, os.getenv("OWNER_ID", "").split()))  # space-separated list
+OWNER_ID     = list(map(int, os.getenv("8452912208", "").split()))  # space-separated list
 STRING       = os.getenv("STRING", None)  # optional session string
 LOG_GROUP    = int(os.getenv("LOG_GROUP", "-1001234456"))
 FORCE_SUB    = int(os.getenv("FORCE_SUB", "-10012345567"))
